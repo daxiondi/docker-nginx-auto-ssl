@@ -20,7 +20,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: daxiondi/docker-nginx-auto-ssl@master
+    - uses: daxiondi/docker-nginx-auto-sslv12.0
 
     # Runs a single command using the runners shell
     - name: Run build docker and push alibaba registry
